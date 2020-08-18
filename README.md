@@ -9,7 +9,7 @@
 
 + 引入CML SDK依赖库
 
-  + ```java
+   ```java
     implementation "com.didiglobal.chameleon:cmlsdk:+"
     implementation "com.didiglobal.chameleon:cmlweb:+"
     implementation "com.didiglobal.chameleon:cmlweex:+"
@@ -20,7 +20,7 @@
 
     debugImplementation 'com.didichuxing.doraemonkit:doraemonkit-weex:+'
     releaseImplementation 'com.didichuxing.doraemonkit:doraemonkit-weex-no-op:+'
-    ```
+   ```
 
 + 创建一个Application类，实现`ICmlConfig`接口方法,完成SDK初始化;
 + 在MainActivity中使用CmlWeexView进行渲染js bundle;
