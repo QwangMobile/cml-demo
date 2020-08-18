@@ -55,11 +55,11 @@
 
 + 将chameleon-ui-builtin代码进行build后得到产物
 
-  ![image-20200803114030080](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghdh1yg6ccj30o403m3ym.jpg)
+![image-20200803114030080](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghusexaqshj30o403m3ym.jpg)
 
 + 将上述产物放置Android工程assets下
 
-  ![image-20200803114450312](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghdh6c7dxhj30na0563yo.jpg)
+![image-20200803114450312](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghusf9bch9j30na0563yo.jpg)
 
 运行Android工程后的效果
 
