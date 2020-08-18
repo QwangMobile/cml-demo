@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+ 
+#platform :ios, '9.0'
+
+target 'Runner' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Runner
+  
+  # CML SDK
+  pod 'DDChameleon'
+
+#  # 接入DoKit需要引入的仓库
+#  pod 'DoraemonKit/Core', :tag => '2.0.0', :configurations => ['Debug'], :git => 'https://gitee.com/didiopensource/DoraemonKit.git'
+#  pod 'DoraemonKit/WithWeex', :tag => '2.0.0', :configurations => ['Debug'], :git => 'https://gitee.com/didiopensource/DoraemonKit.git'
+
+  # WXDevtool需要配合WeexSDK的版本
+#  pod 'WXDevtool', '0.24.0', :configurations => ['Debug']
+  # weex官方0.28.0版本未解决webView问题，需直接在此引用master
+#  pod 'WeexSDK' , :git => 'https://github.com/apache/incubator-weex.git'
+
+end
