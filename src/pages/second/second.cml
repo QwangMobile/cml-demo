@@ -1,0 +1,71 @@
+<template>
+<page title="Second">
+  <view class="view_root_second">
+    <text>我是Second</text>
+  </view>
+</page>
+</template>
+
+<script>
+class Second {
+
+  data = {}
+
+  computed = {}
+
+  watch = {}
+
+  methods = {
+    
+  }
+
+  beforeCreate(query) {}
+
+  created(query) {}
+
+  beforeMount(query) {}
+
+  onShow() {}
+
+  mounted() {}
+
+  onHide() {}
+
+  beforeDestroy() {}
+
+  destroyed() {}
+}
+
+export default new Second();
+</script>
+
+<style scoped>
+.view_root_second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.view_text_second {
+  background-color: red;
+  border-radius: 10cpx;
+  padding-top: 10cpx;
+  padding-bottom: 10cpx;
+  padding-left: 20cpx;
+  padding-right: 20cpx;
+  color: white;
+  margin-top: 30cpx;
+}
+</style>
+
+<script cml-type="json">
+{
+		"base": {
+				"usingComponents": {
+						
+				}
+		}
+}
+</script>

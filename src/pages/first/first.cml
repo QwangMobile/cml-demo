@@ -1,0 +1,80 @@
+<template>
+<page title="First">
+  <view class="view_root_first">
+    <text>我是First</text>
+    <view class="view_text_first">
+      <text c-bind:tap="click">Go Second</text>
+    </view>
+  </view>
+</page>
+</template>
+
+<script>
+import cml from 'chameleon-api';
+
+class First {
+
+  data = {}
+
+  computed = {}
+
+  watch = {}
+
+  methods = {
+    click() {
+      cml.navigateTo({
+        path: '/pages/second/second',
+      });
+    }
+  }
+
+  beforeCreate(query) {}
+
+  created(query) {}
+
+  beforeMount(query) {}
+
+  onShow() {}
+
+  mounted() {}
+
+  onHide() {}
+
+  beforeDestroy() {}
+
+  destroyed() {}
+}
+
+export default new First();
+</script>
+
+<style scoped>
+.view_root_first {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.view_text_first {
+  background-color: red;
+  border-radius: 10cpx;
+  padding-top: 10cpx;
+  padding-bottom: 10cpx;
+  padding-left: 20cpx;
+  padding-right: 20cpx;
+  color: white;
+  margin-top: 30cpx;
+}
+</style>
+
+<script cml-type="json">
+{
+		"base": {
+				"usingComponents": {
+						
+				}
+		}
+}
+</script>

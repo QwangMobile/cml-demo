@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cml_15000000"
+    android:orientation="vertical">
+
+    <com.didi.chameleon.weex.container.CmlWeexView
+        android:id="@+id/weex_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.didi.chameleon.weex.container.CmlWeexView>
+
+</LinearLayout>
