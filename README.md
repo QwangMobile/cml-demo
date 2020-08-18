@@ -1,5 +1,5 @@
 #### 先梳理下使用CML weex 产物和CML SDK以及Weex SDK之间的关系
-![image](https://user-images.githubusercontent.com/29418341/88824325-c8d94c00-d1f8-11ea-805f-3f30520dfe02.png)
+![image](screenshot/88824325-c8d94c00-d1f8-11ea-805f-3f30520dfe02.png)
 + cml weex build生成一个或者多个js bundle(weex渲染用的)，所以这个产物是需要放到IOS和Android工程环境中才能运行；
 + CML SDK基于Weex SDK封装了一层CML的渲染逻辑和交互协议；
 
@@ -55,11 +55,11 @@
 
 + 将chameleon-ui-builtin代码进行build后得到产物
 
-  ![image-20200803114030080](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghdh1yg6ccj30o403m3ym.jpg)
+  ![image-20200803114030080](screenshot/007S8ZIlgy1ghusexaqshj30o403m3ym.png)
 
 + 将上述产物放置Android工程assets下
 
-  ![image-20200803114450312](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghdh6c7dxhj30na0563yo.jpg)
+  ![image-20200803114450312](screenshot/007S8ZIlgy1ghusf9bch9j30na0563yo.png)
 
 运行Android工程后的效果
 
